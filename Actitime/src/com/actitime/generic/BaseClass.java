@@ -16,7 +16,7 @@ import com.actitime.pom.LoginPage;
 
 public class BaseClass {
 public static	WebDriver driver;
-@BeforeTest
+@BeforeClass
 public void openBrowser() {
 Reporter.log("openBrowser",true);	
  driver=new ChromeDriver();
