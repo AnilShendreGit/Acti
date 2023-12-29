@@ -14,9 +14,8 @@ import org.testng.annotations.BeforeTest;
 
 import com.actitime.pom.HomePage;
 import com.actitime.pom.LoginPage;
-
 public class BaseClass {
-public static	WebDriver driver;
+public static WebDriver driver;
 @BeforeTest
 public void openBrowser() {
 Reporter.log("openBrowser",true);	
